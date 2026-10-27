@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://woolf.accountants/sitemap.xml
