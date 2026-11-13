@@ -56,7 +56,7 @@ body {
 
 @media (min-width: 48rem) {
   body {
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.125rem; /* 18px */
   }
 }
 
@@ -92,11 +92,11 @@ h3 {
 
 @media (min-width: 48rem) {
   h1 {
-    font-size: 3.2rem;
+    font-size: 2.75rem;
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -189,16 +189,16 @@ section:first-child {
   align-items: center;
   gap: 0.7rem;
   font-weight: 800;
-  font-size: 1.2rem;
-  letter-spacing: -0.01em;
+  font-size: 1.6rem;
+  letter-spacing: -0.015em;
   color: var(--text);
   text-decoration: none;
   margin-right: auto;
 }
 
 .site-name img {
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
   flex: none;
 }
 
@@ -247,6 +247,15 @@ section:first-child {
   .site-header .button {
     width: 100%;
   }
+
+  .site-name {
+    font-size: 1.35rem;
+  }
+
+  .site-name img {
+    width: 52px;
+    height: 52px;
+  }
 }
 
 /* Buttons */
@@ -280,7 +289,14 @@ section:first-child {
 
 /* Main content */
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 main {
+  flex: 1 0 auto;
   padding-bottom: 2.5rem;
 }
 
@@ -433,7 +449,7 @@ main:focus {
 
 @media (min-width: 48rem) {
   .panel h2 {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -607,14 +623,16 @@ tbody th {
 
 @media (min-width: 48rem) {
   .email-big {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 
-.badge-big {
+.intro-art .badge-big {
   display: block;
-  width: 12rem;
-  height: 12rem;
+  width: 14rem;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1;
   margin: 0 auto;
 }
 
@@ -635,8 +653,8 @@ tbody th {
 }
 
 .site-footer img {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   flex: none;
 }
 
