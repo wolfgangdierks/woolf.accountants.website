@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 640 240" role="img" aria-label="">
+  <rect x="20" y="262" width="600" height="6" rx="3" fill="#3a3f3b"/>
+  <!-- boot (reusable shape) -->
+  <defs>
+    <g id="boot">
+      <path d="M0 0 H62 L64 74 Q66 84 80 86 L118 92 Q134 95 134 112 V120 H0 Z" fill="#2f6e3a"/>
+      <path d="M0 0 H62 L62 14 H0 Z" fill="#255a2f"/>
+      <path d="M82 87 L118 92 Q134 95 134 112 V120 H96 Q96 98 82 87 Z" fill="#4f9a4a"/>
+      <rect x="-4" y="118" width="142" height="16" rx="4" fill="#141615"/>
+      <rect x="-4" y="128" width="142" height="6" fill="#5b625d"/>
+      <g stroke="#eceee9" stroke-width="4" stroke-linecap="round">
+        <line x1="40" y1="28" x2="62" y2="24"/><line x1="42" y1="44" x2="64" y2="40"/>
+        <line x1="44" y1="60" x2="66" y2="56"/><line x1="48" y1="76" x2="72" y2="74"/>
+      </g>
+      <rect x="0" y="100" width="40" height="8" fill="#8ccf86" fill-opacity=".35"/>
+    </g>
+  </defs>
+  <use href="#boot" transform="translate(40 88) scale(1.3)"/>
+  <use href="#boot" transform="translate(206 88) scale(1.3)"/>
+
+  <!-- horizontal bars -->
+  <rect x="404" y="56" width="216" height="140" rx="12" fill="#2c302d" stroke="#3a3f3b" stroke-width="2"/>
+  <g fill="#5b625d"><rect x="420" y="76" width="30" height="8" rx="4"/><rect x="420" y="104" width="30" height="8" rx="4"/><rect x="420" y="132" width="30" height="8" rx="4"/><rect x="420" y="160" width="30" height="8" rx="4"/></g>
+  <rect x="462" y="72" width="140" height="16" rx="3" fill="#8ccf86"/>
+  <rect x="462" y="100" width="106" height="16" rx="3" fill="#4f9a4a"/>
+  <rect x="462" y="128" width="80" height="16" rx="3" fill="#4f9a4a"/>
+  <rect x="462" y="156" width="48" height="16" rx="3" fill="#2f6e3a"/>
+
+  <!-- pie -->
+  <circle cx="560" cy="226" r="40" fill="#2c302d"/>
+  <g transform="rotate(-90 560 226)">
+    <circle cx="560" cy="226" r="15" fill="none" stroke="#2f6e3a" stroke-width="30"/>
+    <circle cx="560" cy="226" r="15" fill="none" stroke="#8ccf86" stroke-width="30" stroke-dasharray="47.1 94.2"/>
+    <circle cx="560" cy="226" r="15" fill="none" stroke="#4f9a4a" stroke-width="30" stroke-dasharray="0 47.1 28.3 94.2"/>
+  </g>
+</svg>

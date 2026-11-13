@@ -12,14 +12,23 @@
   <meta property="og:description" content="Your own accounting and finance department for trade and construction businesses. Led by a controller, powered by AI.">
   <meta property="og:url" content="https://woolf.accountants/">
   <meta property="og:locale" content="en_US">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="https://woolf.accountants/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="woolf.accountants: A finance team for the price of a bookkeeper.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#1c1e1d">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="assets/img/favicon-48.png" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/public-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="site-header">
     <div class="wrap">
-      <a class="site-name" href="index.html">woolf.accountants</a>
+      <a class="site-name" href="index.html"><img src="assets/img/wolf-badge.png" alt="" width="48" height="48"><span>woolf<span class="dot">.</span>accountants</span></a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="services.html">Services &amp; Packages</a></li>
@@ -34,34 +43,51 @@
   <main id="main" tabindex="-1">
 
     <div class="wrap">
-      <section class="intro narrow">
-        <h1>A finance team for the price of a bookkeeper.</h1>
-        <p class="lead">Your own accounting and finance department for trade and construction businesses. Led by a controller, powered by AI, and focused on two questions: where is your cash, and what did each job actually make?</p>
-        <p><a class="button" href="mailto:wolfgang@woolf.accountants?subject=Let%27s%20talk%20about%20my%20project%20margins">Talk about your margins</a></p>
+      <section class="intro">
+        <div>
+          <h1>A finance team for the price of a bookkeeper.</h1>
+          <p class="lead">Your own accounting and finance department for trade and construction businesses. Led by a controller, powered by AI, and focused on two questions: where is your cash, and what did each job actually make?</p>
+          <p><a class="button" href="mailto:wolfgang@woolf.accountants?subject=Let%27s%20talk%20about%20my%20project%20margins">Talk about your margins</a></p>
+        </div>
+        <div class="intro-art">
+          <img src="assets/img/hero.svg" alt="" width="640" height="440">
+        </div>
       </section>
 
       <section aria-label="What you get">
         <ul class="points">
           <li>
-            <h2>Know your project margins.</h2>
-            <p>Job costing, WIP, and percentage-of-completion you can trust. Every job is profitable until somebody does the math.</p>
+            <img src="assets/img/icon-margins.svg" alt="" width="64" height="64">
+            <div>
+              <h2>Know your project margins.</h2>
+              <p>Job costing, WIP, and percentage-of-completion you can trust. Every job is profitable until somebody does the math.</p>
+            </div>
           </li>
           <li>
-            <h2>Close on your schedule.</h2>
-            <p>Month-end within 10 business days is included. Need it faster? That’s an upgrade.</p>
+            <img src="assets/img/icon-close.svg" alt="" width="64" height="64">
+            <div>
+              <h2>Close on your schedule.</h2>
+              <p>Month-end within 10 business days is included. Need it faster? That’s an upgrade.</p>
+            </div>
           </li>
           <li>
-            <h2>Payroll and HR off your desk.</h2>
-            <p>Payroll, onboarding, offboarding, and benefits admin, handled.</p>
+            <img src="assets/img/icon-payroll.svg" alt="" width="64" height="64">
+            <div>
+              <h2>Payroll and HR off your desk.</h2>
+              <p>Payroll, onboarding, offboarding, and benefits admin, handled.</p>
+            </div>
           </li>
           <li>
-            <h2>Fewer errors.</h2>
-            <p>AI agents do the repetitive work: coding, matching, flagging. A controller reviews all of it before it reaches you. AI is how this practice works, and we tell you up front.</p>
+            <img src="assets/img/icon-check.svg" alt="" width="64" height="64">
+            <div>
+              <h2>Fewer errors.</h2>
+              <p>AI agents do the repetitive work: coding, matching, flagging. A controller reviews all of it before it reaches you. AI is how this practice works, and we tell you up front.</p>
+            </div>
           </li>
         </ul>
       </section>
 
-      <section class="narrow" aria-labelledby="how">
+      <section aria-labelledby="how">
         <h2 id="how">How it works</h2>
         <ol class="steps">
           <li>
@@ -79,18 +105,23 @@
         </ol>
       </section>
 
-      <section class="closing narrow" aria-labelledby="closing">
-        <h2 id="closing">Your crew gets paid on Friday. Your customer pays in 90 days.</h2>
-        <p>Let’s talk about your cash flow and your project margins.</p>
-        <p><a class="button" href="mailto:wolfgang@woolf.accountants?subject=Let%27s%20talk%20about%20my%20project%20margins">Talk about your margins</a></p>
+      <section class="closing" aria-labelledby="closing">
+        <div class="panel">
+          <h2 id="closing">Your crew gets paid on Friday. Your customer pays in 90 days.</h2>
+          <p>Let’s talk about your cash flow and your project margins.</p>
+          <p><a class="button button-light" href="mailto:wolfgang@woolf.accountants?subject=Let%27s%20talk%20about%20my%20project%20margins">Talk about your margins</a></p>
+        </div>
       </section>
     </div>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>&copy; woolf.accountants</p>
-      <p><a href="mailto:wolfgang@woolf.accountants">wolfgang@woolf.accountants</a></p>
+      <img src="assets/img/wolf-badge.png" alt="" width="40" height="40" loading="lazy">
+      <div class="footer-text">
+        <p>&copy; woolf.accountants</p>
+        <p><a href="mailto:wolfgang@woolf.accountants">wolfgang@woolf.accountants</a></p>
+      </div>
     </div>
   </footer>
 </body>

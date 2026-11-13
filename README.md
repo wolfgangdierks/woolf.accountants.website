@@ -1,6 +1,6 @@
 # woolf.accountants website
 
-Static website for woolf.accountants. Plain HTML and one CSS file. No framework, no build step, no JavaScript, no tracking.
+Static website for woolf.accountants. Plain HTML and one CSS file. No framework, no build step, no JavaScript, no tracking. Fonts and images are served from this site; no outside services are called.
 
 ## Structure
 
@@ -11,8 +11,9 @@ Static website for woolf.accountants. Plain HTML and one CSS file. No framework,
 | `about.html` | About |
 | `contact.html` | Contact |
 | `404.html` | Shown by GitHub Pages for any missing page |
-| `style.css` | The only stylesheet, used by every page |
-| `favicon.svg` | Browser tab icon |
+| `style.css` | The only stylesheet, used by every page (colors are set at the top) |
+| `assets/fonts/` | Public Sans typeface files, served from this site (license in `OFL.txt`) |
+| `assets/img/` | Wolf logo badge, browser icons, link-preview image (`og-image.png`), and the illustrations (`.svg`) |
 | `CNAME` | Custom domain for GitHub Pages (`woolf.accountants`) |
 | `robots.txt`, `sitemap.xml` | For search engines |
 | `.nojekyll` | Tells GitHub Pages to serve the files as-is |
