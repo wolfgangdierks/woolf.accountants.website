@@ -666,3 +666,92 @@ tbody th {
   display: grid;
   gap: 0.2rem;
 }
+
+/* Contact form */
+
+.contact-grid {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.contact-grid > * {
+  min-width: 0;
+}
+
+@media (min-width: 60rem) {
+  .contact-grid {
+    grid-template-columns: 1.3fr 1fr;
+    gap: 4rem;
+  }
+}
+
+.contact-form {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.5rem 1.25rem;
+}
+
+@media (min-width: 48rem) {
+  .contact-form {
+    padding: 2rem;
+  }
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 1.1rem;
+}
+
+.field label {
+  font-weight: 700;
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 2px solid var(--line);
+  border-radius: 6px;
+  padding: 0.7rem 0.8rem;
+}
+
+.field textarea {
+  resize: vertical;
+  min-height: 9rem;
+}
+
+.field input::placeholder {
+  color: #7f877f;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: var(--green-light);
+  outline: none;
+}
+
+.field input:focus-visible,
+.field textarea:focus-visible {
+  outline: 3px solid var(--green-light);
+  outline-offset: 1px;
+}
+
+button.button {
+  border: 0;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.botcheck {
+  display: none;
+}

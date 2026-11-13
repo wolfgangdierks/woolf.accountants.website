@@ -10,6 +10,7 @@ Static website for woolf.accountants. Plain HTML and one CSS file. No framework,
 | `services.html` | Services & Packages |
 | `about.html` | About |
 | `contact.html` | Contact |
+| `thanks.html` | Shown after someone sends the contact form |
 | `404.html` | Shown by GitHub Pages for any missing page |
 | `style.css` | The only stylesheet, used by every page (colors are set at the top) |
 | `assets/fonts/` | Public Sans typeface files, served from this site (license in `OFL.txt`) |
@@ -30,6 +31,10 @@ Each page is a complete HTML file. The header (site name, navigation, "Talk abou
 6. If you add a page, add it to the nav in every page and to `sitemap.xml`.
 
 To preview locally, open `index.html` in a browser, or run `python3 -m http.server` in this folder and visit http://localhost:8000.
+
+## Contact form
+
+The form on `contact.html` is sent by Web3Forms (web3forms.com), which emails each message to wolfgang@woolf.accountants and then sends the visitor to `thanks.html`. The Web3Forms access key is the `access_key` hidden field in `contact.html`. It is meant to be public; it only lets the form send to the address it was created for. To change where messages go, create a new key at web3forms.com and replace that value.
 
 ## Deploying
 
