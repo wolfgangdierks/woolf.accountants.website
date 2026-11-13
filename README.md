@@ -26,9 +26,10 @@ Each page is a complete HTML file. The header (site name, navigation, "Talk abou
 1. Open the page's `.html` file and change the text between the tags. The page text is inside `<main>`.
 2. Use typographic apostrophes and quotes (’ “ ”) in visible text. Write `&amp;` for an ampersand.
 3. Keep the brand lowercase: woolf.accountants.
-4. If you change what a page is about, update its `<title>`, `<meta name="description">`, and the matching `og:title` / `og:description` tags in the `<head>`.
-5. Email buttons link to `mailto:wolfgang@woolf.accountants?subject=...`. Spaces in the subject are written `%20` and an apostrophe is `%27`.
-6. If you add a page, add it to the nav in every page and to `sitemap.xml`.
+4. After changing `style.css`, raise the number in `style.css?v=2` (to `?v=3` and so on) in every HTML file, so browsers load the new styles instead of an old saved copy.
+5. If you change what a page is about, update its `<title>`, `<meta name="description">`, and the matching `og:title` / `og:description` tags in the `<head>`.
+6. Email buttons link to `mailto:wolfgang@woolf.accountants?subject=...`. Spaces in the subject are written `%20` and an apostrophe is `%27`.
+7. If you add a page, add it to the nav in every page and to `sitemap.xml`.
 
 To preview locally, open `index.html` in a browser, or run `python3 -m http.server` in this folder and visit http://localhost:8000.
 
